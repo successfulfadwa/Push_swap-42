@@ -6,7 +6,7 @@
 /*   By: fadwa <fadwa@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/16 16:04:09 by fadwa             #+#    #+#             */
-/*   Updated: 2022/06/16 16:11:03 by fadwa            ###   ########.fr       */
+/*   Updated: 2022/06/18 23:29:26 by fadwa            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 #include "push_swap.h"
 int main(int argc, char const *argv[])
 {
-    
+
     return 0;
 }
