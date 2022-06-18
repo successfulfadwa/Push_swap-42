@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/fadwa/Desktop/Push_swap-42'
+make -C libft
+make: Leaving directory '/home/fadwa/Desktop/Push_swap-42'
+ 
+make: *** No rule to make target 'obj/getnext_line/get_next_line_utils.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/getnext_line/get_next_line.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/draw_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/exit_game_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/gameplay_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/init_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/map_validate_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/player_update_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/read_map_copy.o', needed by 'push_swap'.
+make: *** No rule to make target 'obj/push_swap_copy.o', needed by 'push_swap'.
+
