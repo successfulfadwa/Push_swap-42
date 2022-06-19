@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 18 23:01:34 2022
+# Make data base, printed on Sun Jun 19 01:08:13 2022
 
 # Variables
 
@@ -27,7 +27,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-61b80a23-83d5-49c0-a933-f800520a0805.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5323974c-ef8c-407f-90ff-16b59fd8abcf.sock
 # environment
 LC_NAME = ar_MA.UTF-8
 # environment
@@ -107,7 +107,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 10523
+VSCODE_PID = 19156
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -221,7 +221,7 @@ LIBRARY = libft/libft.a
 # environment
 LC_MEASUREMENT = ar_MA.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 10482
+GIO_LAUNCHED_DESKTOP_FILE_PID = 19111
 # environment
 LC_PAPER = ar_MA.UTF-8
 # environment
@@ -277,9 +277,9 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = ar_MA.UTF-8
 # environment
+ 
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
- 
 # Load=134/1024=13%, Rehash=0, Collisions=8/177=5%
 
 # Pattern-specific Variable Values
@@ -460,6 +460,6 @@ push_swap.h:
 # strcache performance: lookups = 56 / hit rate = 46%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=0/56=0%
-# Finished Make data base on Sat Jun 18 23:01:34 2022
+# Finished Make data base on Sun Jun 19 01:08:13 2022
 
  
