@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/16 16:04:09 by fadwa             #+#    #+#             */
-/*   Updated: 2022/06/19 05:22:31 by faljaoui         ###   ########.fr       */
+/*   Created: 2021/11/06 15:02:10 by faljaoui          #+#    #+#             */
+/*   Updated: 2022/01/04 00:12:58 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "push_swap.h"
-// int main(int argc, char const *argv[])
-// {
+#include "libft.h"
 
-//     return 0;
-// }
-//  charo 
+int	ft_isdigit(int c)
+{
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
+}

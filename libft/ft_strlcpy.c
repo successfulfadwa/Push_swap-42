@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/16 16:04:09 by fadwa             #+#    #+#             */
-/*   Updated: 2022/06/19 05:22:31 by faljaoui         ###   ########.fr       */
+/*   Created: 2021/11/15 21:32:43 by faljaoui          #+#    #+#             */
+/*   Updated: 2022/01/03 22:59:02 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "push_swap.h"
-// int main(int argc, char const *argv[])
-// {
+#include "libft.h"
 
-//     return 0;
-// }
-//  charo 
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
+{
+	size_t	i;
+
+	i = 0;
+	if (size == 0)
+	{
+		return (ft_strlen(src));
+	}
+	while (src[i] != '\0' && i < (size - 1))
+	{
+		dst[i] = src[i];
+		++i;
+	}
+	dst[i] = '\0';
+	return (ft_strlen(src));
+}

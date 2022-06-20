@@ -1,20 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/16 16:04:09 by fadwa             #+#    #+#             */
-/*   Updated: 2022/06/19 05:22:31 by faljaoui         ###   ########.fr       */
+/*   Created: 2021/11/06 12:00:49 by faljaoui          #+#    #+#             */
+/*   Updated: 2022/01/03 23:04:30 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "push_swap.h"
-// int main(int argc, char const *argv[])
-// {
+#include "libft.h"
 
-//     return 0;
-// }
-//  charo 
+int	ft_isalpha(int c)
+
+{
+	if ((c >= 'a' && c <= 'z' ) || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
+}

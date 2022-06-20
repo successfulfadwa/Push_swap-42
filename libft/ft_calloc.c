@@ -1,20 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/16 16:04:09 by fadwa             #+#    #+#             */
-/*   Updated: 2022/06/19 05:22:31 by faljaoui         ###   ########.fr       */
+/*   Created: 2021/11/18 08:29:12 by faljaoui          #+#    #+#             */
+/*   Updated: 2022/01/03 18:02:15 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "push_swap.h"
-// int main(int argc, char const *argv[])
-// {
+#include "libft.h"
 
-//     return 0;
-// }
-//  charo 
+void	*ft_calloc(size_t nmemb, size_t size)
+{
+	void	*ptr;
+
+	ptr = malloc(nmemb * size);
+	if (ptr == 0)
+		return (NULL);
+	ft_memset(ptr, 0, size * nmemb);
+	return (ptr);
+}

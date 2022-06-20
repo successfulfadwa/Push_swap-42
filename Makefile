@@ -3,15 +3,17 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: fadwa <fadwa@student.42.fr>                +#+  +:+       +#+         #
+#    By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/06/15 17:48:12 by fadwa             #+#    #+#              #
-#    Updated: 2022/06/15 18:27:27 by fadwa            ###   ########.fr        #
+#    Created: 2022/06/19 01:45:00 by faljaoui          #+#    #+#              #
+#    Updated: 2022/06/19 05:03:58 by faljaoui         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+ 
+
 SRC				=	getnext_line/get_next_line_utils.c getnext_line/get_next_line.c \
-	draw_copy.c	exit_game_copy.c	gameplay_copy.c	init_copy.c	map_validate_copy.c player_update_copy.c	read_map_copy.c	push_swap_copy.c
+	push_swap.c isvalidate.c push_swap.c init.c
 
 OBJ				=	$(addprefix obj/, ${SRC:.c=.o})
 
